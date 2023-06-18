@@ -1,0 +1,41 @@
+
+1 . finding weather the number is even or odd
+ 
+   (a) normal method
+
+        if(n%2==0){
+          cout<<even
+         }
+       else{
+         cout<<odd
+        }
+
+    (b)   bit method
+         
+         if(n&1){
+            cout<<odd
+         }
+         else{
+            cout<<even
+         }
+
+2 . Dividing and multiplying the number with 2
+
+      (a) normal method
+
+          mid= l+h/2 or l+(h-l)/2
+       
+
+      (b)   bit method
+           
+           mid= (l+h)>>1 or l+ (h-l)>>1
+         
+      (a) normal method
+
+           a=a*2
+
+       (b)  bit method
+
+          a=a<<1  
+
+3 . finding the number of bits in a number
