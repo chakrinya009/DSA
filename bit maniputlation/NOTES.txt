@@ -39,3 +39,8 @@
           a=a<<1  
 
 3 . finding the number of bits in a number
+
+while(n){
+   count++;
+   n=n&(n-1)
+}
