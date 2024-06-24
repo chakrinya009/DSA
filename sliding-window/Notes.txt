@@ -46,9 +46,11 @@ while(j<n){
 
 
     if(sum<=k){
-        j++;
         maxlen=max(maxlen,j-i+1);
+        j++;
     }
 }
 
 return maxlen;
+
+
