@@ -1,0 +1,16 @@
+
+
+                            IDENTIFICATION
+
+for(i=0;i<n;i++){
+    for(j=0;j<n;j++){
+        // code
+    }
+}
+
+for(i=0;i<n;i++){
+    for(j=0;j<i;j++){               j loop is depend on i 
+        // code
+    }
+}
+
