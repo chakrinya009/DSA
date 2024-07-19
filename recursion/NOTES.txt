@@ -1,0 +1,7 @@
+1) base condition
+2) recursive call
+3) calculation and result
+
+2 and 3 are inter changable (up and down)
+
+in subset and subsequence questions inclusion(take) and exclusion(take not)
