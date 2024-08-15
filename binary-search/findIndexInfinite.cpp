@@ -1,0 +1,1 @@
+//find index of first 1 in infinite binary sorted array

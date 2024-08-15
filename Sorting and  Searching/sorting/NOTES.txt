@@ -1,0 +1,20 @@
+MERGE SORT
+  Usually done recursively
+  Divide and Conquer (to break our problems into smaller problems to solve it)
+
+QUICK SORT
+  Recursive algo
+  quick sort=pivot
+  pivot means simply one of the items in the array that follows the 3 conditions after we sorted it
+    a)correct position in final sorted array
+    b)items to the left are smaller
+    c)items to the right are larger
+  before we sort 1) items from left that is larger than pivot 2) items from right that is smaller than pivot
+
+HEAP SORT
+  build-max-heap function :- creates max heap from unsorted array
+  heapify function        :- similar to build max heap, but assumes part of array is already sorted
+    we continously 
+      1)create max heap
+      2)remove largest items
+      3)place item in sorted partition

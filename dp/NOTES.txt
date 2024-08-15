@@ -1,0 +1,39 @@
+optimizing over plain recursion
+
+overlapping sub problems and optimal(max,min,largest) sub structure
+
+if a recursive function has 2 calls then there will be a probability of dp
+
+1) main problem divided into subproblems (solving the subproblems leads to solution of problem)
+2)repeating subproblems
+3) identifying what type of problem(pattern ) is difficult
+
+recursion  --->  memoization  --->  tabulation
+
+base condition == smallest valid input
+
+recursion  ---->function calls
+memoization ---> function calls + storage(table)
+top-down  ----> table
+
+for tabulation 2 steps
+  i)  intializatoin= recursive base condition
+  
+  ii)recursive function call to iterative
+  matrix(table)size dp[n+1][w+1];(matrix intilise from 0 so for no of inputs 6 and weight 7 dp[7][8])
+
+knapsack==bag  i) 0/1 knapsack ii) bounded   iii) unbounded (we can take infinite no of instances)
+fractional knapsack(greedy)
+   a) subset sum
+   b)equal sum partition
+   c)count of subset sum
+   d)minimum sub set sum difference
+   e)target sum
+   f)no of subsets by given difference
+--------
+wt : 3 4 1                                               identify
+val: 5 6 2                                             1) choice
+bag: 6   (o/p max profit)                              2) optimal
+time complexity exponential
+
+

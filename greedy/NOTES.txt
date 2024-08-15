@@ -1,0 +1,14 @@
+it is a problem solving approach of making the locally optimal choice at each stage with the hope of finding a global optimum
+
+pros ---> simple , easy to implement
+cons ---> in some cases they dont provide a globally optimum solution
+
+problems on which greedy approach work has two properties
+ i)a global optimum can be arrived at by selecting a local optimum
+ ii)an optimal solution to the problem contains an optimal solution to sub problems
+
+1) activity selection problem
+2) huffman coding
+3) job sequence problem
+4) fractional knapsack problem
+5) prims minimum spanning tree
