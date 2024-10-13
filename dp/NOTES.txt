@@ -37,3 +37,15 @@ bag: 6   (o/p max profit)                              2) optimal
 time complexity exponential
 
 
+
+matrix chain multiplication(MCM)
+int solve(int arr[],int i,int j){
+  if(i>=j){
+    return 0;
+  }
+
+1. find i and j values
+2. find right base condition
+3. move k--> i to j
+
+}

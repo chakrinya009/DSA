@@ -1,6 +1,6 @@
 1) base condition
 2) recursive call
-3) calculation and result
+3) calculation and result (small work)
 
 2 and 3 are inter changable (up and down)
 
